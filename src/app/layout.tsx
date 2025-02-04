@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {
+  Fjalla_One,
+  Geist,
+  Geist_Mono,
+  Source_Code_Pro,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -9,6 +14,17 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const fjalla = Fjalla_One({
+  variable: "--fjalla",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const sourcesans = Source_Code_Pro({
+  variable: "--sourcesans",
   subsets: ["latin"],
 });
 
@@ -25,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${fjalla?.variable} ${sourcesans?.variable} antialiased`}
       >
         {children}
       </body>

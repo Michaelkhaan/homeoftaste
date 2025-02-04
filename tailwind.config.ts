@@ -12,6 +12,14 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        fjalla: ["var(--fjalla)"],
+        sourcesans: ["var(--sourcesans)"],
+      },
+      boxShadow: {
+        textshadow: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+        buttonshadow: "5px 5px 0 rgba(0, 0, 0, 0.2)",
+      },
     },
   },
   plugins: [],
