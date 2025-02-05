@@ -104,10 +104,30 @@ export const Hamburger = () => {
       <path
         fill="none"
         stroke="#000"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         stroke-width="2"
         d="M5 8h22M5 16h22M5 24h22"
+      />
+    </svg>
+  );
+};
+
+export const ArrowDown = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m7 10l5 5l5-5"
+        stroke-width="1"
       />
     </svg>
   );

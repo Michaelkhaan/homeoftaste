@@ -120,7 +120,7 @@ function Review() {
                   <span className="text-gray-400 text-3xl">★</span>
                 </div>
               </div>
-              <p className="text-lg font-semibold">Yamm Buffet</p>
+              <p className="text-lg font-semibold">Home of Taste</p>
               <p className="text-sm">819 Reviews</p>
             </div>
           </div>
@@ -129,7 +129,7 @@ function Review() {
         <div className="flex">
           <button
             ref={prevRef}
-            className="prev-button text-black hidden sm:block"
+            className="prev-button text-black hidden lg:block"
           >
             <ArrowLeft />
           </button>
@@ -167,7 +167,7 @@ function Review() {
           </div>
           <button
             ref={nextRef}
-            className="next-button text-black hidden sm:block"
+            className="next-button text-black hidden lg:block"
           >
             <ArrowRight />
           </button>
