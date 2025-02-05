@@ -24,8 +24,9 @@ function Request() {
     <div>
       <h1 className="text-black text-base font-sourcesans">SPECIAL REQUEST?</h1>
       <p className="text-[#474747] text-base mt-5">
-        Do you have dietary concerns? Questions about an upcoming event? Drop us
-        a line, and we'll get back to you soon!
+        {
+          "Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!"
+        }
       </p>
       <div className="mt-5">
         <h1 className="text-[#474747] text-base font-sourcesans">
