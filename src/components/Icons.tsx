@@ -132,3 +132,104 @@ export const ArrowDown = () => {
     </svg>
   );
 };
+
+export const Phone = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#f1f1f1"
+        fill-rule="evenodd"
+        d="M5.84 9.856a17.22 17.22 0 0 0 8.922 8.663l.012.005l.764.34a2.25 2.25 0 0 0 2.74-.737l1.274-1.763a.25.25 0 0 0-.046-.341l-2.224-1.795a.25.25 0 0 0-.358.046l-.866 1.168a.75.75 0 0 1-.912.237a13.4 13.4 0 0 1-6.67-6.67a.75.75 0 0 1 .237-.912L9.88 7.23a.25.25 0 0 0 .046-.358L8.132 4.648a.25.25 0 0 0-.341-.046l-1.773 1.28a2.25 2.25 0 0 0-.732 2.756zm8.33 10.041a18.72 18.72 0 0 1-9.693-9.416l-.002-.002l-.554-1.22A3.75 3.75 0 0 1 5.14 4.666l1.773-1.28a1.75 1.75 0 0 1 2.386.32l1.795 2.225a1.75 1.75 0 0 1-.32 2.505l-.67.496a11.9 11.9 0 0 0 5.118 5.118l.497-.67a1.75 1.75 0 0 1 2.504-.32l2.225 1.795a1.75 1.75 0 0 1 .32 2.387l-1.274 1.764a3.75 3.75 0 0 1-4.566 1.229z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  );
+};
+
+export const Mail = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g
+        fill="none"
+        stroke="#f1f1f1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      >
+        <rect width="18.5" height="15.5" x="2.75" y="4.25" rx="3" />
+        <path d="m2.75 8l8.415 3.866a2 2 0 0 0 1.67 0L21.25 8" />
+      </g>
+    </svg>
+  );
+};
+
+export const Location = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="30"
+      viewBox="0 0 16 16"
+    >
+      <g fill="none" stroke="#f1f1f1" stroke-width="1">
+        <path d="M8 14.5C10.5 11 12.5 8 12.5 6a4.5 4.5 0 1 0-9 0c0 2 2 5 4.5 8.5Z" />
+        <path d="M10 6a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z" />
+      </g>
+    </svg>
+  );
+};
+
+export const Time = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="none"
+        stroke="#f1f1f1"
+        stroke-miterlimit="10"
+        stroke-width="32"
+        d="M256 64C150 64 64 150 64 256s86 192 192 192s192-86 192-192S362 64 256 64Z"
+      />
+      <path
+        fill="none"
+        stroke="#f1f1f1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="32"
+        d="M256 128v144h96"
+      />
+    </svg>
+  );
+};
+
+export const Star = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#fff"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+    </svg>
+  );
+};

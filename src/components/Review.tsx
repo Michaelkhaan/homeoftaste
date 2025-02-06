@@ -22,7 +22,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -30,7 +30,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -38,7 +38,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -46,7 +46,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -54,7 +54,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -62,7 +62,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
     {
       image: "/unnamed.png",
@@ -70,7 +70,7 @@ function Review() {
         "Lots of food to choose from. Very tasty Chinese food also Indian an ksbjb  fwjr we owerh ower fhwer",
       name: "Maggie Malcolm",
       date: "18/01/2025",
-      link: "reviewLink",
+      link: "https://maps.google.com/maps?cid=15359674583233489499",
     },
   ];
 

@@ -45,6 +45,16 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="w-full">
+        {/* <Map address="1600 Amphitheatre Parkway, Mountain View, CA" /> */}
+        <iframe
+          width="100%"
+          height="500"
+          // id="gmap_canvas"
+          src="https://maps.google.com/maps?q=uk&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          // scrolling="no"
+        ></iframe>
+      </div>
     </Layout>
   );
 }

@@ -12,15 +12,17 @@ function Nav() {
 
   const menuItems = [
     { name: "Home", path: "/" },
+    { name: "Opening Hours", path: "/openinghours" },
     { name: "About Us", path: "/about" },
-    { name: "Contact Us", path: "/contact" },
-    { name: "Menu & Pricing", path: "/menu" },
+    { name: "Contact Us", path: "/contactus" },
+    { name: "Menu", path: "/menu" },
+    { name: "Price", path: "/price" },
   ];
 
   return (
     <>
       {/* Navbar */}
-      <nav className="bg-white opacity-80 px-6 py-3 flex items-center justify-between sticky top-0 z-50">
+      <nav className="bg-white shadow-md opacity-80 px-6 py-3 flex items-center justify-between sticky top-0 z-50">
         {/* Hamburger Icon */}
         <div className="block md:hidden" onClick={() => setIsOpen(true)}>
           <Hamburger />
